@@ -889,6 +889,7 @@ jlcd_start(){
 			fi
 		fi
 	fi
+	read -p "PRESS ANY KEY"
 	##############################Checking for new installed kernel############################################################
 	msg_out "\n*** You have $timeout seconds each to answer the following questions.\n*** If not answered, I will take 'n' as default (be ready).\n*** Some default may be different due to previous choice.\n***\n"
 	kerver=0
